@@ -1,0 +1,7 @@
+.fundo1{
+    width: 100%;
+    height: 800px;
+    background-image: url(../assets/imagens/GrandCanyon.jpg);
+    background-size: cover;
+    margin-top: 20px;
+}

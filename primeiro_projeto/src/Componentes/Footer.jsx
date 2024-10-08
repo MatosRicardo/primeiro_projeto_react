@@ -1,6 +1,6 @@
 import styles from "../CSS/Footer.module.css";
-import insta from "../assets/imagens/insta.jpeg";
-import face from "../assets/imagens/face.jpeg";
+import insta from "../assets/imagens/insta.png";
+import face from "../assets/imagens/face.png";
 import tiktok from "../assets/imagens/tiktok.png";
 import whatsapp from "../assets/imagens/whtas.png";
 
