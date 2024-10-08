@@ -1,6 +1,6 @@
 import styles from "../CSS/Escocia.module.css";
 import ComponenteProps from "../Componentes/ComponenteProps";
-import bandeira from "../assets/imagens/bandeira_escocia.jfif";
+import bandeira from "../assets/imagens/bandeira_escocia.png";
 
 function Escocia() {
   return (
