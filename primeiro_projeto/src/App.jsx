@@ -6,17 +6,23 @@ import Footer from "./Componentes/Footer";
 import Grand_Canyon from "./Componentes/Grand_Canyon";
 import Muralha from "./Componentes/Muralha";
 import Aruba from "./Componentes/Aruba";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <Escocia />
-      <Grand_Canyon />
-      <Muralha />
-      <Aruba />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Escocia" element={<Escocia />} />
+          <Route path="/Grand_canyon" element={<Grand_Canyon />} />
+          <Route path="/Muralha" element={<Muralha />} />
+          <Route path="/Aruba" element={<Aruba />} />
+        </Routes>
+
+        <Footer />
+      </Router>
     </>
   );
 }

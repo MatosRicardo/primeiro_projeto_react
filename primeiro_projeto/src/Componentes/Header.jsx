@@ -1,6 +1,7 @@
 import Logo from "../assets/imagens/viagens.jpg";
 import Lupa from "../assets/imagens/lupa.png";
 import styles from "../CSS/Header.module.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -10,19 +11,19 @@ function Header() {
         <nav className={styles.menu}>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <Link to="/Home">Home</Link>
             </li>
             <li>
-              <a href="#">Escócia</a>
+              <Link to="/Escocia">Escocia</Link>
             </li>
             <li>
-              <a href="#">Grand Canyon</a>
+              <Link to="/Grand_Canyon">Grand Canyon</Link>
             </li>
             <li>
-              <a href="#">Muralhas da China</a>
+              <Link to="/Muralha">Muralha</Link>
             </li>
             <li>
-              <a href="#">Aruba</a>
+              <Link to="/Aruba">Aruba</Link>
             </li>
           </ul>
         </nav>
